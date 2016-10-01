@@ -19,7 +19,7 @@
 </Description>
         <PartOf>programming</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib64/lib*.so.*</Path>
+            <Path fileType="doc">/usr/share/docs/libuuid/stub</Path>
         </Files>
     </Package>
     <Package>
@@ -29,16 +29,14 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="1">libuuid</Dependency>
+            <Dependency release="2">libuuid</Dependency>
         </RuntimeDependencies>
         <Files>
-            <Path fileType="header">/usr/include/</Path>
-            <Path fileType="library">/usr/lib64/lib*.so</Path>
-            <Path fileType="data">/usr/lib64/pkgconfig/*.pc</Path>
+            <Path fileType="doc">/usr/share/docs/libuuid/stub-devel</Path>
         </Files>
     </Package>
     <History>
-        <Update release="1">
+        <Update release="2">
             <Date>2016-10-01</Date>
             <Version>1.0.3</Version>
             <Comment>Packaging update</Comment>
