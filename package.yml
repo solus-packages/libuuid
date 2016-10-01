@@ -1,0 +1,16 @@
+name       : libuuid
+version    : 1.0.3
+release    : 1
+source     :
+    - http://freefr.dl.sourceforge.net/project/libuuid/libuuid-1.0.3.tar.gz : 46af3275291091009ad7f1b899de3d0cea0252737550e7919d17237997db5644
+license    : BSD-3-Clause
+component  : programming
+summary    : Portable uuid C library
+description: |
+    Portable uuid C library
+setup      : |
+    %configure --disable-static
+build      : |
+    %make
+install    : |
+    %make_install
